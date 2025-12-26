@@ -27,3 +27,4 @@ Thanks to all the amazing people who have contributed to **AlumX's Backend Repos
 - Kamakshi Gupta (@29kamakshigupta)
 - Manisha katariya (@chanchukatariya5-gif)
 - Khushi Shorey(@khushishorey)
+- Suraj Wadikar(@suraj9562)
