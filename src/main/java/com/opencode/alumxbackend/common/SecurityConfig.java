@@ -24,7 +24,7 @@ public class SecurityConfig {
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/dev/**").permitAll() // Open dev endpoints for manual header check
-                        .anyRequest().authenticated() // Secure everything else by default
+                        .anyRequest().permitAll() // Allow all other requests for dev/testing convenience
                 );
         return http.build();
     }
