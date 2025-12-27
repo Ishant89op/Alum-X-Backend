@@ -1,4 +1,4 @@
-package com.opencode.alumxbackend.chat.model;
+package com.opencode.alumxbackend.chat;
 
 import java.time.LocalDateTime;
 

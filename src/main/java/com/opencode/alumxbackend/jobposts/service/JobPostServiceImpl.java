@@ -21,6 +21,8 @@ public class JobPostServiceImpl implements JobPostService{
     private final JobPostRepository jobPostRepository;
     private final UserRepository userRepository;
 
+
+
     @Override
     public JobPost createJobPost(JobPostRequest request) {
 

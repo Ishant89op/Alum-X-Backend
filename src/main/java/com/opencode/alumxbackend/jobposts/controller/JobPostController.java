@@ -20,6 +20,8 @@ public class JobPostController {
     private static final String DUMMY_TOKEN = "alumx-dev-token";
     private static final Logger logger = Logger.getLogger(JobPostController.class.getName());
 
+
+
     @PostMapping
     public ResponseEntity<?> createJobPost(
             @RequestHeader(value = "X-DUMMY-TOKEN", required = false) String token,

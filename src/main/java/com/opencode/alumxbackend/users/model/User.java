@@ -1,5 +1,6 @@
 package com.opencode.alumxbackend.users.model;
 
+import io.netty.handler.codec.socks.SocksAuthRequest;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -42,14 +43,11 @@ public class User {
     @Column(nullable = false)
     private LocalDateTime updatedAt;
 
+
     @PrePersist
     protected void onCreate() {
         createdAt = LocalDateTime.now();
         updatedAt = createdAt;
     }
 
-    @PreUpdate
-    protected void onUpdate() {
-        updatedAt = LocalDateTime.now();
-    }
 }
